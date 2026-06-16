@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Emergency Travelling Plan — shortest-path route solver">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1b2a"/>
-      <stop offset="0.55" stop-color="#125a4d"/>
-      <stop offset="1" stop-color="#1b9c85"/>
+      <stop offset="0" stop-color="#1a0710"/>
+      <stop offset="0.55" stop-color="#4c0519"/>
+      <stop offset="1" stop-color="#9f1239"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.82" cy="0.25" r="0.6">
-      <stop offset="0" stop-color="#e9c46a" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#e9c46a" stop-opacity="0"/>
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="1200" height="380" rx="20" fill="url(#bg)"/>
   <rect width="1200" height="380" rx="20" fill="url(#glow)"/>
 
   <!-- MOTIF: route path with map pins + a dashed aerial hop -->
-  <g transform="translate(980,190)" stroke="#e9c46a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
+  <g transform="translate(980,190)" stroke="#fbbf24" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
     <!-- winding road route -->
     <path d="M -90 70 C -50 40, -30 90, 10 55 C 45 25, 35 -25, 70 -40"/>
     <!-- dashed aerial hop arc -->
@@ -30,12 +30,12 @@
       <circle cx="0" cy="-33" r="7"/>
     </g>
     <!-- waypoint node -->
-    <circle cx="10" cy="55" r="6" fill="#e9c46a"/>
+    <circle cx="10" cy="55" r="6" fill="#fbbf24"/>
   </g>
 
   <!-- wordmark -->
   <text x="80" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff">Emergency Travelling Plan</text>
-  <text x="84" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#e9c46a">Shortest path home, by road &amp; air</text>
-  <text x="84" y="268" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#dcefe9">A BFS route solver for an emergency return across connected cities.</text>
-  <text x="84" y="306" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#9ec9bf">C++ · BFS · graphs · shortest path · console app</text>
+  <text x="84" y="212" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#fbbf24">Shortest path home, by road &amp; air</text>
+  <text x="84" y="268" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#fff1f2">A BFS route solver for an emergency return across connected cities.</text>
+  <text x="84" y="306" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#fda4af">C++ · BFS · graphs · shortest path · console app</text>
 </svg>
